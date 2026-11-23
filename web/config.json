@@ -1,0 +1,25 @@
+{
+  "defaultQuery": "image/jpeg",
+  "pageSize": 24,
+  "maximumHeaderCharacters": 8192,
+  "maximumFileHeaderBytes": 65536,
+  "presets": [
+    {
+      "label": "JPEG image",
+      "query": "image/jpeg"
+    },
+    {
+      "label": "JSON response",
+      "query": "application/json; charset=utf-8"
+    },
+    {
+      "label": "Office document",
+      "query": ".docx"
+    },
+    {
+      "label": "Web fonts",
+      "query": "font/"
+    }
+  ],
+  "customTypes": {}
+}

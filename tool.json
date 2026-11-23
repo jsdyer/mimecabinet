@@ -1,12 +1,23 @@
 {
-  "id": "coolcode-tool-template",
-  "title": "CoolCode Tool Starter",
-  "description": "A browser-only example that trims lines and removes exact duplicates.",
-  "category": "security",
-  "tags": ["text", "lines", "duplicates"],
-  "icon": "scan-search",
-  "url": "/coolcode-tool-template/",
-  "source": "https://github.com/jsdyer/coolcode-tool-template",
+  "id": "mimecabinet",
+  "title": "MIME Cabinet",
+  "description": "Look up media types, interpret Content-Type headers and compare file signatures with their names.",
+  "category": "projects",
+  "tags": [
+    "MIME",
+    "file types",
+    "extensions",
+    "HTTP",
+    "signatures",
+    "metadata"
+  ],
+  "icon": "file-code-2",
+  "url": "/mimecabinet/",
+  "source": "https://github.com/jsdyer/mimecabinet",
   "hosting": "project",
-  "access": "browser"
+  "access": "browser",
+  "data_info": {
+    "mode": "local",
+    "detail": "A bundled mime-db reference and bounded file-header checks run locally; files and pasted headers stay in your browser."
+  }
 }
